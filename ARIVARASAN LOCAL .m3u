@@ -13,17 +13,37 @@ http://hdserver.7starcloud.com:1935//live//live//playlist.m3u8
 http://hdserver.7starcloud.com:1935//ctn//live//playlist.m3u8
 #EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG5530.png" group-title="TAMIL", Polimer Channel
 http://hdserver.7starcloud.com:1935//polimer//live//playlist.m3u8
-#EXTINF:-1 tvg-logo=""http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG99048.png" group-title="TAMIL",
+#EXTINF:-1 tvg-logo=""http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG99048.png" group-title="TAMIL", SS Varma Tv
 http://hdserver.7starcloud.com:1935//ssvarmatv//ssvarmatv//playlist.m3u8
-#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG28145" group-title="TAMIL",
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG28145" group-title="TAMIL", TEN TV
 http://51.79.158.179:1935//tentv//tentv//playlist.m3u8
-#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG34271.png" group-title="TAMIL",
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG34271.png" group-title="TAMIL", Jawahar Channel
 http://hdserver.7starcloud.com:1935//jawaharchannel//livetv//playlist.m3u8
-#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG40848.png" group-title="TAMIL",
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG40848.png" group-title="TAMIL", Jawahar TV
 http://streamingbox.7starcloud.com:1935//jawahartv//streamingbox//playlist.m3u8
-#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG9905.png" group-title="TAMIL",
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG9905.png" group-title="TAMIL", Sana Plus
 http://media.7starcloud.com:1935//live//sanatv2//playlist.m3u8
-#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG48279.png" group-title="TAMIL",
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG48279.png" group-title="TAMIL", Vani TV HD
 http://hdserver.7starcloud.com:1935//vanitv//livemedia//playlist.m3u8
-#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG91933.png" group-title="TAMIL",
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG88913" group-title="TAMIL", Kalvi Tv
 http://bmlive.net:8000//sstar//sevenstartvs//bms.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG91933.png" group-title="TAMIL", Ashoka Channel
+http://hdserver.7starcloud.com:1935//ashoka//channel//playlist.m3u8
+#EXTINF:-1 tvg-logo=""http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG56025.png" group-title="TAMIL", OM TV(Omalur)
+http://media.7starcloud.com:1935//omtv//livestream//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG9430.png" group-title="TAMIL", FM TAMIL
+http://hdserver.7starcloud.com:1935//fmtamil//live//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG49081" group-title="TAMIL", Namathu Murasu TV
+http://51.79.158.179:1935//jayathiya//live//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG97465.png" group-title="TAMIL", MK Tunes
+http://103.199.160.85//Content//mktunes//Live//Channel(MKTunes)//Stream(02)//index.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG12196.png" group-title="TAMIL", DCN
+http://hdserver.7starcloud.com:1935//dcn//channel//playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="TAMIL",N TV
+http://7starcloud.com:1935//ntv//live//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG3523.png" group-title="TAMIL",MK Six
+http://103.199.160.85//Content//mktv6//Live//Channel(MKTV6)//index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="TAMIL", "CTN(Connor
+http://bmlive.net:8000//ctn//ctn//bms.m3u8 
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG49462.png" group-title="TAMIL", Polimer TV
+http://103.199.160.85//Content//polimer//Live//Channel(Polimer)//Stream(01)//index.m3u8
