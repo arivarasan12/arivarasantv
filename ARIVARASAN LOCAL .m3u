@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG80573.png" group-title="TAMIL", 7 STAR TV
+http://hdserver.7starcloud.com:1935//live//7star2//playlist.m3u8
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG35713.png" group-title="TAMIL", SANA TV
+http://hdserver.7starcloud.com:1935//sanatv//sanatv//playlist.m3u8
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG43856.png" group-title="TAMIL", 3Tamil TV
+https://6n3yogbnd9ok-hls-live.5centscdn.com//threetamil//d0dbe915091d400bd8ee7f27f0791303.sdp//playlist.m3u8
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG58756.png" group-title="TAMIL", Sharvesh 7Star TV
+http://hdserver.7starcloud.com:1935//sharvesh//live//playlist.m3u8
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG244.png" group-title="TAMIL", 7STAR PLUS
+http://hdserver.7starcloud.com:1935//live//live//playlist.m3u8
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG39297.png" group-title="TAMIL", CTN
+http://hdserver.7starcloud.com:1935//ctn//live//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG5530.png" group-title="TAMIL", Polimer Channel
+http://hdserver.7starcloud.com:1935//polimer//live//playlist.m3u8
+#EXTINF:-1 tvg-logo=""http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG99048.png" group-title="TAMIL",
+http://hdserver.7starcloud.com:1935//ssvarmatv//ssvarmatv//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG28145" group-title="TAMIL",
+http://51.79.158.179:1935//tentv//tentv//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG34271.png" group-title="TAMIL",
+http://hdserver.7starcloud.com:1935//jawaharchannel//livetv//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG40848.png" group-title="TAMIL",
+http://streamingbox.7starcloud.com:1935//jawahartv//streamingbox//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG9905.png" group-title="TAMIL",
+http://media.7starcloud.com:1935//live//sanatv2//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG48279.png" group-title="TAMIL",
+http://hdserver.7starcloud.com:1935//vanitv//livemedia//playlist.m3u8
+#EXTINF:-1 tvg-logo="http:\/\/7starcloud.in\/tamilcloud\/uploads\/images\/channel_IMG91933.png" group-title="TAMIL",
+http://bmlive.net:8000//sstar//sevenstartvs//bms.m3u8
