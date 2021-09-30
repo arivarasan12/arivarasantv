@@ -1,5 +1,10 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG80573.png" group-title="TAMIL", 7 STAR TV
+http://hdserver.7starcloud.com:1935//live//7star2//playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG35713.png" group-title="TAMIL", SANA TV
+http://hdserver.7starcloud.com:1935//sanatv//sanatv//playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/main/1549461138%20(1).jpg?raw=true" group-title="TAMIL", YOGAA TV
 http:\/\/hdserver.7starcloud.com:1935\/live\/7star2\/playlist.m3u8
