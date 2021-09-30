@@ -13,7 +13,7 @@ http://hdserver.7starcloud.com:1935//live//live//playlist.m3u8
 http://hdserver.7starcloud.com:1935//ctn//live//playlist.m3u8
 #EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG5530.png" group-title="TAMIL", Polimer Channel
 http://hdserver.7starcloud.com:1935//polimer//live//playlist.m3u8
-#EXTINF:-1 tvg-logo=""http://7starcloud.in//tamilcloud//uploads//images//channel_IMG99048.png" group-title="TAMIL", SS Varma Tv
+#EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG99048.png" group-title="TAMIL", SS Varma Tv
 http://hdserver.7starcloud.com:1935//ssvarmatv//ssvarmatv//playlist.m3u8
 #EXTINF:-1 tvg-logo="http://7starcloud.in//tamilcloud//uploads//images//channel_IMG28145" group-title="TAMIL", TEN TV
 http://51.79.158.179:1935//tentv//tentv//playlist.m3u8
