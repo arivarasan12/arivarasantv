@@ -3,7 +3,6 @@
 https://www.youtube.com/watch?v=rggaQZ0t8u4
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/99682071a6d6cab85d7290fda4e100e03fdb78eb/all_serial/Images/abhium_nanum.png?raw=true" group-title="சீரியல்",அபியும் நானும்  
 https://www.thiraifour.com/v/sun/1910abi/720/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/99682071a6d6cab85d7290fda4e100e03fdb78eb/all_serial/Images/abhium_nanum.png?raw=true" group-title="சீரியல்",அபியும் நானும்
 https://www.thiraisix.com/v/sun/1910abi/720/playlist.m3u8 
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/0269331533079bbe982e472bc8f4f7da8ea73184/all_serial/Images/chithi2.png?raw=true" group-title="சீரியல்",சித்தி 2
 https://www.thiraitwo.com/v/sun/ct1019/72/playlist.m3u8
@@ -18,5 +17,5 @@ ttps://www.thiraitwo.com/v/sun/1910vp1/720/playlist.m3u8
 https://www.thiraisix.com/v/vijay/1910ps/720/playlist.m3u8
 #EXTINF:-1 tvg-logo=".https://github.com/arivarasan12/arivarasantv/blob/e4e9e6cab992d199fb86b929bf2e19cf596205dd/all_serial/Images/pooveunnakaga.png?raw=true" group-title="சீரியல்",பூவே உனக்கக
 https://www.thiraitwo.com/v/sun/1910pu/720/playlist.m3u8
-EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/1a0e3d0b5a93abee5c96d80c5a495f4c5b171e94/all_serial/Images/aruvi.png?raw=true" group-title="சீரியல்",அருவி
+#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/1a0e3d0b5a93abee5c96d80c5a495f4c5b171e94/all_serial/Images/aruvi.png?raw=true" group-title="சீரியல்",அருவி
 https://www.thiraione.com/v/sun/1910aru/720/playlist.m3u8
