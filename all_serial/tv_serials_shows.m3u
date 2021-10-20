@@ -39,5 +39,12 @@ https://www.thiraisix.com/v/vijay/1610mrs/240/playlist.m3u8
 https://www.thiraisix.com/v/vijay/1710nn/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/c89c15e3221ebb5ffd62f5108ec52681b7732722/all_serial/Images/BIGG_BOSS_UNSEEN.png?raw=true" group-title="TAMIL",பிக் பாஸ் தமிழ் UNSEEN
 https://www.thiraisix.com/v/vijay/2010uns/720/playlist.m3u8
+#EXTINF:-1 tvg-logo="?raw=true" group-title="TAMIL"தமிழும் சரஸ்வதியும்
+https://www.thiraisix.com/v/vijay/2010ts/720/playlist.m3u8
+#EXTINF:-1 tvg-logo="?raw=true" group-title="TAMIL"தமிழும் சரஸ்வதியும்
+https://www.thiraithree.com/v/vijay/2010ts/hd/playlist.m3u8
+#EXTINF:-1 tvg-logo="?raw=true" group-title="TAMIL"ராஜ ராணி
+https://www.thiraisix.com/v/vijay/2010rr/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/2f082ad14713f7bd0a2c334286ba8439e6cbffd5/all_serial/Images/movie.png?raw=true" group-title="TAMIL"MOVIE
+https://player.vimeo.com/external/633918051.m3u8?s=1e09e454c01d2982e113ed3a3b01d292db4b7020
 #EXTINF:-1 tvg-logo="?raw=true" group-title="TAMIL"
