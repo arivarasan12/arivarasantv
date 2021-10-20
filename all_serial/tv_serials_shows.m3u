@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/c4a74616795606c158836c7b28d5908cccf8de43/all_serial/Images/roja (1) (1).jpg?raw=true" group-title="சீரியல்",ரோஜா
-https://r5---sn-4g5lznez.googlevideo.com/videoplayback?expire=1634682055&ei=Z_BuYY-bKYHJ1wbvwqX4Bg&ip=107.181.180.164&id=o-AEIoN8Ii9ntosElxqU6Qfg6B82-o9SMcCeJ7dHHQJorb&itag=247&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&vprv=1&mime=video%2Fwebm&ns=hjbJ3zEhfTUWKBwT9rtuz8gG&gir=yes&clen=134847985&dur=1277.080&lmt=1634637932159065&keepalive=yes&fexp=24001373,24007246&c=WEB&txp=6416222&n=5WZNgrRlJ4VJ8g&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgHVDL5dJEYrOP_xzskNyo5oK7fFsJeucewNEpS2-2E5ACIQCoRuzOV6LohIvbSyOcre_qx1e1c9chJpVtQhr-e2KgVw%3D%3D&alr=yes&cpn=DgPZhNBgfEiAcClA&cver=2.20211014.05.00&rn=15&redirect_counter=1&cm2rm=sn-gxuo03g-3c2l7e&req_id=f655836c6363a3ee&cms_redirect=yes&mh=dq&mm=29&mn=sn-4g5lznez&ms=rdu&mt=1634660241&mv=m&mvi=5&pl=24&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgWkWSJFhA91_AMVqSOCigf-i2r76aiOMgNh53UvhIAjsCIQDdgJFAEy64Hp9HDmKZFhnoE1LCFwwi9DjDzCMLHkjpuQ%3D%3D
+https://www.youtube.com/watch?v=sRdPk3dfzi8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/99682071a6d6cab85d7290fda4e100e03fdb78eb/all_serial/Images/abhium_nanum.png?raw=true" group-title="சீரியல்",அபியும் நானும்  
 https://www.thiraifour.com/v/sun/1910abi/720/playlist.m3u8
 https://www.thiraisix.com/v/sun/1910abi/720/playlist.m3u8 
@@ -14,6 +14,7 @@ https://www.thiraisix.com/v/sun/1910sun/720/playlist.m3u8
 https://www.thiraitwo.com/v/sun/1910sun/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="சீரியல்",வனத்தை போல
 https://www.thiraitwo.com/v/sun/1910vp1/720/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="சீரியல்",வனத்தை போல
 https://www.thiraisix.com/v/sun/1910vp/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="சீரியல்",பாண்டியன் கடைகள்
 https://www.thiraisix.com/v/vijay/1910ps/720/playlist.m3u8
