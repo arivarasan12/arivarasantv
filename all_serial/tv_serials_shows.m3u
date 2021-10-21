@@ -32,9 +32,9 @@ https://www.thiraitwo.com/v/sun/2010pu/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/db736b6ae6f1416cca65844856a5f60f7a5753e4/all_serial/Images/pooveunnakaga.png?raw=true" group-title="TAMIL",பூவே உனக்கக
 https://www.thiraitwo.com/v/sun/pu2010/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/1a0e3d0b5a93abee5c96d80c5a495f4c5b171e94/all_serial/Images/aruvi.png?raw=true" group-title="TAMIL",அருவி
-https://cdn.tamilbliss.com/v/sun/2010aru/720/playlist.m3u8
+https://cdn.tamilbliss.com:443/v/sun/2010aru/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/1a0e3d0b5a93abee5c96d80c5a495f4c5b171e94/all_serial/Images/aruvi.png?raw=true" group-title="TAMIL",அருவி
-https://www.thiraione.com/v/sun/2010aru/720/playlist.m3u8
+https://www.thiraione.com:443/v/sun/2010aru/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/2445c05834d71f999623d02b682cf12e003d005b/all_serial/Images/biggboss.png?raw=true" group-title="TAMIL",பிக் பாஸ்
 https://www.thiraisix.com/v/vijay/2110bb/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/81dcda9e6217c0e59592e5245a926638efc84f06/all_serial/Images/bhakalakshmi.png?raw=true" group-title="TAMIL",பாக்யலட்சுமி
