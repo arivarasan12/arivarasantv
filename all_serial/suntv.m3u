@@ -27,6 +27,10 @@ https://www.thiraifour.com/v/sun/2510sun/720/playlist.m3u8
 https://www.thiraisix.com/v/sun/2510sun/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/sundari.png?raw=true" group-title="சீரியல்",சுந்தரி
 https://www.thiraitwo.com/v/sun/2510sun/720/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tamildhool.b-cdn.net/wp-content/uploads/2021/10/kal.jpg" group-title="சீரியல்",KAYAL
+https://www.thiraitwo.com/v/sun/2510vp/720/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="சீரியல்",வனத்தை போல
+https://www.thiraitwo.com/v/sun/2510vp/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="சீரியல்",வனத்தை போல
 https://www.thiraitwo.com/v/sun/2510vp1/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="சீரியல்",வனத்தை போல
@@ -41,12 +45,14 @@ https://www.thiraitwo.com/v/sun/2510pu/720/playlist.m3u8
 https://www.thiraitwo.com/v/sun/pu2510/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/db736b6ae6f1416cca65844856a5f60f7a5753e4/all_serial/Images/pooveunnakaga.png?raw=true" group-title="சீரியல்",பூவே உனக்கக
 https://www.thiraisix.com/v/sun/2510pu/720/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/db736b6ae6f1416cca65844856a5f60f7a5753e4/all_serial/Images/pooveunnakaga.png?raw=true" group-title="சீரியல்",பூவே உனக்கக
+https://www.thiraisix.com/v/sun/pu2510/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/1a0e3d0b5a93abee5c96d80c5a495f4c5b171e94/all_serial/Images/aruvi.png?raw=true" group-title="சீரியல்",அருவி
 https://cdn.tamilbliss.com:443/v/sun/2510aru/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/1a0e3d0b5a93abee5c96d80c5a495f4c5b171e94/all_serial/Images/aruvi.png?raw=true" group-title="சீரியல்",அருவி
 https://www.thiraione.com:443/v/sun/2510aru/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/1a0e3d0b5a93abee5c96d80c5a495f4c5b171e94/all_serial/Images/aruvi.png?raw=true" group-title="சீரியல்",அருவி
-https://www.thiraifour.com/v/sun/2510aru/480/playlist.m3u8
+https://www.thiraifour.com/v/sun/2510aru/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/db736b6ae6f1416cca65844856a5f60f7a5753e4/all_serial/Images/pooveunnakaga.png?raw=true" group-title="TAMIL",பூவே உனக்கக
 http://83.149.126.229/~tamilshow/downloads/load//Sun%20Tv/25.10.2021/Poove%20Unakkaga%20(25.10.2021).mp4
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="TAMIL",வனத்தை போல
