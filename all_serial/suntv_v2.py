@@ -1,4 +1,5 @@
 import urllib.request
+import os
 from urllib.error import HTTPError
 links=[]
 link=["https://www.thiraisix.com/v/vijay/2710ps/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct2610/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2610kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2610abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2610abi/720/playlist.m3u8","https://www.thiraione.com/v/sun/2610abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1026/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2610ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct2610/720/playlist.m3u8","https://www.thiraione.com/v/sun/2610ct/720/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1026/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/2610ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2610abi1634738534/480/playlist.m3u8","https://www.thiraifour.com/v/sun/2610sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2610sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2610sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2610vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2610vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2610vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2610vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1026pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2610pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu2610/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2610pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu2610/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/2610aru/720/playlist.m3u8","https://www.thiraione.com:443/v/sun/2610aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2610aru/720/playlist.m3u8"]
@@ -11,7 +12,9 @@ for a in link:
   links.append(a)
 for j in links:
   print(j)
-f = open("suntvserial_v2.m3u", "w")
+file ="suntvserial_v2.m3u"
+path = os.getcwd()+file
+f = open(path, "w")
 f.write("#EXTM3U\n")
 keys = ["2710ps", "2610sun", "aru", "ct", "abi", "vp", "pu", "kay"]
 for i in links:
