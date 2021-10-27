@@ -12,7 +12,7 @@ https://www.thiraisix.com/v/vijay/2710rr/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/2f082ad14713f7bd0a2c334286ba8439e6cbffd5/all_serial/Images/movie.png?raw=true" group-title="சீரியல்"MOVIE
 https://player.vimeo.com/external/633918051.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/main/all_serial/Images/paveem_ganeshan.png?raw=true" group-title="சீரியல்",பாவம் கணேசன்
-ttps://www.thiraisix.com/v/vijay/2710pg/720/playlist.m3u8
+https://www.thiraisix.com/v/vijay/2710pg/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/2445c05834d71f999623d02b682cf12e003d005b/all_serial/Images/biggboss.png?raw=true" group-title="சீரியல்",பிக் பாஸ்
 https://www.thiraisix.com/v/vijay/2710bb/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/81dcda9e6217c0e59592e5245a926638efc84f06/all_serial/Images/bhakalakshmi.png?raw=true" group-title="சீரியல்",பாக்யலட்சுமி
@@ -43,3 +43,4 @@ http://83.149.126.229/~tamildub/serials/load//Vijay%20Tv%20Shows/24.10.2021/Mr%2
 http://83.149.126.229/~tamildub/serials/load//Vijay%20Tv%20Shows/23.10.2021/Mr%20And%20Mrs%20Chinnathirai%20Season%203%20Episode%2041.mp4
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/af2071cf06d420a3be4d4a292419ef8378c0c91e/all_serial/Images/neeya_nanna.png?raw=true" group-title="TAMIL",நீயா நானா
 http://83.149.126.229/~tamildub/serials/load//Vijay%20Tv%20Shows/24.10.2021/Neeya%20Naana%20Season%2023%20Episode%20212.mp4
+#EXTINF:-1 tvg-logo="" group-title="TAMIL",
