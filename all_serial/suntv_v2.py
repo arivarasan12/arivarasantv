@@ -2,7 +2,7 @@ import urllib.request
 import os
 from urllib.error import HTTPError
 links=[]
-link=["https://www.thiraisix.com/v/vijay/2810ps/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct2710/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2710kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2710abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2710abi/720/playlist.m3u8","https://www.thiraione.com/v/sun/2710abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1026/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2710ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct2710/720/playlist.m3u8","https://www.thiraione.com/v/sun/2710ct/720/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1026/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/2710ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2710abi1634738534/480/playlist.m3u8","https://www.thiraifour.com/v/sun/2710sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2710sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2710sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2710vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2710vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2710vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2710vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1026pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2710pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu2710/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2710pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu2710/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/2710aru/720/playlist.m3u8","https://www.thiraione.com:443/v/sun/2710aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2710aru/720/playlist.m3u8"]
+link=["https://www.thiraisix.com/v/vijay/3010ps/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct2910/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2910kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2910abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2910abi/720/playlist.m3u8","https://www.thiraione.com/v/sun/2910abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1026/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2910ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct2910/720/playlist.m3u8","https://www.thiraione.com/v/sun/2910ct/720/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1026/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/2910ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2910abi1634738534/480/playlist.m3u8","https://www.thiraifour.com/v/sun/2910sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2910sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2910sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2910vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2910vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2910vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2910vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1026pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/2910pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu2910/720/playlist.m3u8","https://www.thiraisix.com/v/sun/2910pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu2910/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/2910aru/720/playlist.m3u8","https://www.thiraione.com:443/v/sun/2910aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/2910aru/720/playlist.m3u8"]
 for a in link:
  try:
    urllib.request.urlretrieve(a, 'video_name.m3u8') 
@@ -12,11 +12,9 @@ for a in link:
   links.append(a)
 for j in links:
   print(j)
-file ="suntvserial_v2.m3u"
-path = os.getcwd()+file
-f = open(path, "w")
+f = open("suntvserial_v2.m3u", "w")
 f.write("#EXTM3U\n")
-keys = ["2810ps", "2710sun", "aru", "ct", "abi", "vp", "pu", "kay"]
+keys = ["3010ps", "2910sun", "aru", "ct", "abi", "vp", "pu", "kay"]
 for i in links:
  fullstring = i
  for j in keys:
@@ -27,7 +25,7 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/99682071a6d6cab85d7290fda4e100e03fdb78eb/all_serial/Images/abhium_nanum.png?raw=true" group-title="SERIAL",ABHIYUM NANUM\n')
         f.write(i)
         f.write('\n')
-      elif(substring == "2710sun"):
+      elif(substring == "2910sun"):
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/sundari.png?raw=true" group-title="SERIAL",SUNDARI\n')
         f.write(i)
         f.write('\n')
@@ -47,8 +45,8 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2021/10/kal.jpg" group-title="SERIAL",KAYAL\n')
         f.write(i)
         f.write('\n')
-      elif(substring == "2810ps"):
-        f.write('#EXTINF:-1 tvg-logo="https://gi"https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",PANDIAN STORES\n')
+      elif(substring == "3010ps"):
+        f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",PANDIAN STORES\n')
         f.write(i)
         f.write('\n')
 f.close()
