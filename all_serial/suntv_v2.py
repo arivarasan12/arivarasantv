@@ -1,4 +1,4 @@
-#python program to check working link
+#python program to check working lin
 import urllib.request
 import os
 from urllib.error import HTTPError
