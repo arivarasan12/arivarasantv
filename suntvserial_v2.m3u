@@ -1,13 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://tamildhool.b-cdn.net/wp-content/uploads/2021/08/ROJ-1.jpg" group-title="SERIAL",ROJA
-http://64.31.35.62/~tamilshow/downloads/load//Sun%20Tv/30.10.2021/Roja%20(30.10.2021).mp4
-#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",PANDIAN STORES
-https://www.thiraisix.com/v/vijay/0111ps/720/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2021/10/kal.jpg" group-title="SERIAL",KAYAL
-https://www.thiraisix.com/v/sun/3010kay/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/99682071a6d6cab85d7290fda4e100e03fdb78eb/all_serial/Images/abhium_nanum.png?raw=true" group-title="SERIAL",ABHIYUM NANUM
-https://www.thiraisix.com/v/sun/3010abi/720/playlist.m3u8
+https://www.thiraisix.com/v/sun/0111abi/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/sundari.png?raw=true" group-title="SERIAL",SUNDARI
-https://www.thiraisix.com/v/sun/3010sun/720/playlist.m3u8
+https://www.thiraisix.com/v/sun/0111sun/720/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="SERIAL",VANATHA POLA"
-https://www.thiraisix.com/v/sun/3010vp/720/playlist.m3u8
+https://www.thiraifour.com/v/sun/0111vp/240/playlist.m3u8

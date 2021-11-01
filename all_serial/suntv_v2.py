@@ -13,7 +13,7 @@ for a in link:
   links.append(a)
 for j in links:
   print(j)
-f = open("suntvserial_v.m3u","w")
+f = open("suntvserial_v2.m3u","w")
 f.write("#EXTM3U\n")
 keys = ["0211ps","0111sun","aru", "ct", "abi", "vp", "pu", "kay","Roja"]
 for i in links:
