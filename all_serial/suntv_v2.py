@@ -53,4 +53,9 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",PANDIAN STORES\n')
         f.write(i)
         f.write('\n')
+      elif(substring =="kay"):
+        f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",KAYAL\n')
+        f.write(i)
+        f.write(i)
+        f.write('\n')
 f.close()
