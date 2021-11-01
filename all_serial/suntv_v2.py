@@ -12,9 +12,9 @@ for a in link:
   links.append(a)
 for j in links:
   print(j)
-f = open("suntvserial_v2.m3u", "w")
+f = open("suntvserial_v2.m3u","w")
 f.write("#EXTM3U\n")
-keys = ["3010ps","3010sun", "aru", "ct", "abi", "vp", "pu", "kay","roja"]
+keys = ["0111ps","3010sun", "aru", "ct", "abi", "vp", "pu", "kay","Roja"]
 for i in links:
  fullstring = i
  for j in keys:
@@ -25,7 +25,7 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/99682071a6d6cab85d7290fda4e100e03fdb78eb/all_serial/Images/abhium_nanum.png?raw=true" group-title="SERIAL",ABHIYUM NANUM\n')
         f.write(i)
         f.write('\n')
-      elif(substring =="roja"):
+      elif(substring =="Roja"):
         f.write('#EXTINF:-1 tvg-logo="https://tamildhool.b-cdn.net/wp-content/uploads/2021/08/ROJ-1.jpg" group-title="SERIAL",ROJA\n')
         f.write(i)
         f.write('\n')
@@ -49,7 +49,7 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2021/10/kal.jpg" group-title="SERIAL",KAYAL\n')
         f.write(i)
         f.write('\n')
-      elif(substring == "3010ps"):
+      elif(substring == keys[0]):
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",PANDIAN STORES\n')
         f.write(i)
         f.write('\n')
