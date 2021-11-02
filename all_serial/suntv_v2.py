@@ -30,7 +30,7 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://tamildhool.b-cdn.net/wp-content/uploads/2021/08/ROJ-1.jpg" group-title="SERIAL",ROJA\n')
         f.write(i)
         f.write('\n')
-      elif(substring == "0111sun"):
+      elif(substring =="0111sun"):
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/sundari.png?raw=true" group-title="SERIAL",SUNDARI\n')
         f.write(i)
         f.write('\n')
@@ -54,8 +54,8 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",PANDIAN STORES\n')
         f.write(i)
         f.write('\n')
-      elif(substring =="kay"):
-        f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",KAYAL\n')
+      elif(substring =="aru"):
+        f.write('#EXTINF:-1 tvg-logo="https://tamildhool1.net/wp-content/uploads/2021/10/Aruvi-300x160.jpg" group-title="SERIAL",ARUVI\n')
         f.write(i)
         f.write(i)
         f.write('\n')
