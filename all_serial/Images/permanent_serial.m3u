@@ -9,3 +9,7 @@ https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/kay.m3u8
 https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/sun.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="SERIAL",VANATHA POLA"
 https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/vp.m3u8
+#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/db736b6ae6f1416cca65844856a5f60f7a5753e4/all_serial/Images/pooveunnakaga.png?raw=true" group-title="TAMIL",பூவே உனக்கக
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/pu.m3u8
+#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/0269331533079bbe982e472bc8f4f7da8ea73184/all_serial/Images/chithi2.png?raw=true" group-title="TAMIL",சித்தி 2
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/ct.m3u8
