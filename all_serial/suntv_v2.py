@@ -3,7 +3,7 @@ import urllib.request
 import os
 from urllib.error import HTTPError
 links=[]
-link=["http://64.31.35.62/~tamilshow/downloads/load//Sun%20Tv/02.11.2021/Roja%20(02.11.2021).mp4","http://83.149.126.229/~tamildub/serials/load//Sun%20Tv/02.11.2021/Roja%20(02.11.2021).mp4","https://www.thiraisorgam.com/v/vijay/0311ps/hd/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211abi/380/playlist.m3u8","https://www.thiraitwo.com/v/sun/abi0211/380/playlist.m3u8","https://www.thiraisix.com/v/vijay/0311ps/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct0211/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0211abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211abi/720/playlist.m3u8","https://www.thiraione.com/v/sun/0211abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1026/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct0211/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu1102/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211kay/480/playlist.m3u8","https://www.thiraione.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1026/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211abi1634738534/480/playlist.m3u8","https://www.thiraifour.com/v/sun/0211sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0211vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1026pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu0211/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu0211/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/0211aru/720/playlist.m3u8","https://www.thiraione.com:443/v/sun/0211aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0211aru/720/playlist.m3u8"]
+link=["http://64.31.35.62/~tamilshow/downloads/load//Sun%20Tv/02.11.2021/Roja%20(02.11.2021).mp4","https://www.thiraisorgam.com/v/vijay/0311ps/hd/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211abi/380/playlist.m3u8","https://www.thiraitwo.com/v/sun/abi0211/380/playlist.m3u8","https://www.thiraisix.com/v/vijay/0311ps/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct0211/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0211abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211abi/720/playlist.m3u8","https://www.thiraione.com/v/sun/0211abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1026/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct0211/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu1102/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211kay/480/playlist.m3u8","https://www.thiraione.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1026/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/0211ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211abi1634738534/480/playlist.m3u8","https://www.thiraifour.com/v/sun/0211sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0211vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1026pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0211pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu0211/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0211pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu0211/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/0211aru/720/playlist.m3u8","https://www.thiraione.com:443/v/sun/0211aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0211aru/720/playlist.m3u8"]
 for a in link:
  try:
    urllib.request.urlretrieve(a,'video_name.m3u8') 
@@ -14,6 +14,7 @@ for a in link:
 for j in links:
   print(j)
 f = open("suntvserial_v2.m3u","w")
+f1=open("Pandian_stores.html","w")
 f.write("#EXTM3U\n")
 keys = ["0311ps","0211sun","aru", "ct", "abi", "vp", "pu", "kay","Roja"]
 for i in links:
@@ -54,9 +55,13 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/87ac4e85cc497653eb5c62349e26cf8496259643/all_serial/Images/pandianstores.png?raw=true" group-title="SERIAL",PANDIAN STORES\n')
         f.write(i)
         f.write('\n')
+        f1.write(repr('<a href="intent:"'))
+        f1.write(i)
+        f1.write('#Intent;package=com.mxtech.videoplayer.ad;S.title=New%20title;end">Launch through Intent scheme.</a>')
       elif(substring =="aru"):
         f.write('#EXTINF:-1 tvg-logo="https://tamildhool1.net/wp-content/uploads/2021/10/Aruvi-300x160.jpg" group-title="SERIAL",ARUVI\n')
         f.write(i)
         f.write(i)
         f.write('\n')
 f.close()
+f1.close()
