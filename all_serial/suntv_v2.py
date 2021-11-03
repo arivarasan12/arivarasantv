@@ -15,7 +15,7 @@ for j in links:
   print(j)
 f = open("suntvserial_v2.m3u","w")
 f.write("#EXTM3U\n")
-keys = ["0211ps","0211sun","aru", "ct", "abi", "vp", "pu", "kay","Roja"]
+keys = ["0311ps","0211sun","aru", "ct", "abi", "vp", "pu", "kay","Roja"]
 for i in links:
  fullstring = i
  for j in keys:
