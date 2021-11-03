@@ -81,6 +81,18 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/vanthaipola.png?raw=true" group-title="SERIAL",VANATHA POLA"\n')
         f.write(i)
         f.write('\n')
+        urllib.request.urlretrieve(i,'vp.m3u8')
+        with open(r'vp.m3u8','r') as file:
+         data = file.read()
+         data = data.replace("fileSequence",i+"fileSequence")
+        with open(r'vp.m3u8','w') as file:
+	        file.write(data)
+        with open(r'vp.m3u8', 'r') as file:
+         data = file.read()
+         data = data.replace("playlist.m3u8","")
+        with open(r'vp.m3u8','w') as file:
+	        file.write(data)
+        print("psText replaced")
       elif(substring == "pu"):
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/db736b6ae6f1416cca65844856a5f60f7a5753e4/all_serial/Images/pooveunnakaga.png?raw=true" group-title="SERIAL",POOVE UNAKAGA\n')
         f.write(i)

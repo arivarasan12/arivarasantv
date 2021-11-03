@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/abi.m3u8
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/aru.m3u8
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/ct.m3u8
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/ps.m3u8
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/pu.m3u8
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/sun.m3u8
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/vp.m3u8
