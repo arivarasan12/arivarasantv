@@ -27,6 +27,21 @@ for i in links:
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/99682071a6d6cab85d7290fda4e100e03fdb78eb/all_serial/Images/abhium_nanum.png?raw=true" group-title="SERIAL",ABHIYUM NANUM\n')
         f.write(i)
         f.write('\n')
+        with open(r'video_name.m3u8', 'r') as file:
+         data = file.read()
+         data = data.replace("fileSequence",i+"fileSequence")
+        with open(r'ps.m3u8','w') as file:
+	        file.write(data)
+        with open(r'ps.m3u8', 'r') as file:
+         data = file.read()
+         data = data.replace("playlist.m3u8","")
+        with open(r'ps.m3u8','w') as file:
+	        file.write(data)
+        
+        print("psText replaced")
+
+
+
       elif(substring =="Roja"):
         f.write('#EXTINF:-1 tvg-logo="https://tamildhool.b-cdn.net/wp-content/uploads/2021/08/ROJ-1.jpg" group-title="SERIAL",ROJA\n')
         f.write(i)
