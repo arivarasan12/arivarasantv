@@ -3,7 +3,21 @@
 
 
 <!-- HTML -->
-<video id='hls-example'  class="video-js vjs-default-skin" width="400" height="300" controls>
+<script>
+$.ajax({
+    headers: { "Accept": "application/json"},
+    type: 'GET',
+    url: 'http://cl.ly/2wr4',
+    crossDomain: true,
+    beforeSend: function(xhr){
+        xhr.withCredentials = true;
+  },
+    success: function(data, textStatus, request){
+        console.log(data);
+    }
+});
+</script>
+<video id='hls-example'  class="video-js vjs-default-skin" width="400" height="300">
 <source type="application/x-mpegURL" src="http://www.thiraitwo.com/v/sun/0211kay/480/playlist.m3u8">
 </video>
 
@@ -11,7 +25,7 @@
 <!-- JS code -->
 <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
 <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.14.1/videojs-contrib-hls.js"crossorigin="anonymous"></script>
 <script src="https://vjs.zencdn.net/7.2.3/video.js"></script>
 
 <script>
