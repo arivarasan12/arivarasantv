@@ -1,1 +1,1 @@
-cmd /k "C:\Users\ariva\OneDrive\Desktop\TV\arivarasantv\all_serial\suntv_v2.py"
+cmd /k "C:\Users\ariva\OneDrive\Desktop\TV\arivarasantv\all_serial\suntv_v2.py && cd C:\Users\ariva\OneDrive\Desktop\TV\arivarasantv && git status && git add .&& git commit -m "new" && git push"
