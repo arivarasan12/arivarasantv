@@ -1,4 +1,4 @@
-#python program to check working lin
+#python program to check working link
 #"http://64.31.35.62/~tamilshow/downloads/load//Sun%20Tv/03.11.2021/Roja%20(03.11.2021).mp","http://83.149.126.229/~tamildub/serials/load//Sun%20Tv/03.11.2021/Roja%20(03.11.2021).mp",
 import urllib.request
 from urllib.error import HTTPError
