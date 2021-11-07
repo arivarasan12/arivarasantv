@@ -51,7 +51,7 @@ for i in links:
         f.write(i)
         f.write('\n')
         urllib.request.urlretrieve(i,"C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\abi.m3u8") 
-        with open(r'video_name.m3u8', 'r') as file:
+        with open(r'C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\abi.m3u8', 'r') as file:
          data = file.read()
          data = data.replace("fileSequence",i+"fileSequence")
         with open(r"C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\abi.m3u8",'w') as file:
