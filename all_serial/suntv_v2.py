@@ -21,10 +21,11 @@ print("cdateps",cdateps)
 lin=["https://www.thiraitwo.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/abi0611/380/playlist.m3u8","https://www.thiraisix.com/v/vijay/0711/720/playlist.m3u8","http://www.thiraione.com/v/vijay/0711ps/hd/playlist.m3u8","https://www.thiraitwo.com/v/vijay/0711ps/720/playlist.m3u8","https://www.thiraisix.com/v/vijay/0711ps/720/playlist.m3u8","https://www.thiraisix.com/v/vijay/0711ps/hd/playlist.m3u8","https://www.thiraisix.com/v/sun/ct0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1106/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu1106/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611kay/480/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1106/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611abi/480/playlist.m3u8","https://www.thiraifour.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1106pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu0611/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/0611aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611aru/720/playlist.m3u8"]
 for a in lin:
  a1=a
- b=a1.replace(cdate,cdateps)
- b=b.replace(olddate,cdate)
+ b=a1.replace("0711",cdateps)
+ b=b.replace("0611",cdate)
  link.append(b)
 print("Date Replaced")
+print(link)
 for a in link:
  try:
    urllib.request.urlretrieve(a,"C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\video_name.m3u8") 
@@ -186,3 +187,5 @@ for i in links:
         
         print("psText replaced")
 f.close()
+for ab in range(len(lin)):
+  lin[ab]=link[ab]
