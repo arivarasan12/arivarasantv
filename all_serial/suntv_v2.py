@@ -187,5 +187,3 @@ for i in links:
         
         print("psText replaced")
 f.close()
-for ab in range(len(lin)):
-  lin[ab]=link[ab]
