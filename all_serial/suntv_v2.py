@@ -25,7 +25,6 @@ for a in lin:
  b=b.replace("0611",cdate)
  link.append(b)
 print("Date Replaced")
-print(link)
 for a in link:
  try:
    urllib.request.urlretrieve(a,"C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\video_name.m3u8") 
