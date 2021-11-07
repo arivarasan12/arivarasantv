@@ -3,7 +3,28 @@
 import urllib.request
 from urllib.error import HTTPError
 links=[]
-link=["https://www.thiraitwo.com/v/sun/0811abi/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/abi0611/380/playlist.m3u8","https://www.thiraisix.com/v/vijay/0811/720/playlist.m3u8","http://www.thiraione.com/v/vijay/0811ps/hd/playlist.m3u8","https://www.thiraitwo.com/v/vijay/0811ps/720/playlist.m3u8","https://www.thiraisix.com/v/vijay/0811ps/720/playlist.m3u8","https://www.thiraisix.com/v/vijay/0811ps/hd/playlist.m3u8","https://www.thiraisix.com/v/sun/ct0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1026/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu1106/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611kay/480/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1026/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611abi/480/playlist.m3u8","https://www.thiraifour.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1026pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu0611/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/0611aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611aru/720/playlist.m3u8"]
+link=[]
+from datetime import date
+today = date.today()
+today=str(today)
+print(today)
+month=today[-5:-3]
+day=today[-2:]
+print(month)
+print(day)
+cdate=str(0)+str((int(day)-1))+month
+cdateps=day+month
+olddate=str(0)+str(int(day)-2)+month
+print("olddate",olddate)
+print("cdate",cdate)
+print("cdateps",cdateps)
+lin=["https://www.thiraitwo.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/abi0611/380/playlist.m3u8","https://www.thiraisix.com/v/vijay/0711/720/playlist.m3u8","http://www.thiraione.com/v/vijay/0711ps/hd/playlist.m3u8","https://www.thiraitwo.com/v/vijay/0711ps/720/playlist.m3u8","https://www.thiraisix.com/v/vijay/0711ps/720/playlist.m3u8","https://www.thiraisix.com/v/vijay/0711ps/hd/playlist.m3u8","https://www.thiraisix.com/v/sun/ct0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611kay/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611abi/720/playlist.m3u8","https://www.thiraisix.com/v/sun/ct1106/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/ct0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu1106/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611kay/480/playlist.m3u8","https://www.thiraisix.com/v/zee/ct1106/720/playlist.m3u8","https://cdn.tamilbliss.com/v/sun/0611ct/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611abi/480/playlist.m3u8","https://www.thiraifour.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611sun/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611vp/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611vp1/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611vp/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611vp/240/playlist.m3u8","https://www.thiraisix.com/v/sun/1106pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/0611pu/720/playlist.m3u8","https://www.thiraitwo.com/v/sun/pu0611/720/playlist.m3u8","https://www.thiraisix.com/v/sun/0611pu/720/playlist.m3u8","https://www.thiraisix.com/v/sun/pu0611/720/playlist.m3u8","https://cdn.tamilbliss.com:443/v/sun/0611aru/720/playlist.m3u8","https://www.thiraifour.com/v/sun/0611aru/720/playlist.m3u8"]
+for a in lin:
+ a1=a
+ b=a1.replace(cdate,cdateps)
+ b=b.replace(olddate,cdate)
+ link.append(b)
+print("Date Replaced")
 for a in link:
  try:
    urllib.request.urlretrieve(a,"C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\video_name.m3u8") 
@@ -17,7 +38,8 @@ for j in links:
   print(j)
 f = open("C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\suntvserial_v2.m3u","w")
 f.write("#EXTM3U\n")
-keys = ["0811","0611sun","aru", "ct", "abi", "vp", "pu", "kay","Roja"]
+sun=cdate+"sun"
+keys = [cdateps,sun,"aru", "ct", "abi", "vp", "pu", "kay","Roja"]
 for i in links:
  fullstring = i
  for j in keys:
@@ -46,7 +68,7 @@ for i in links:
         f.write(i)
         f.write('\n')
         urllib.request.urlretrieve(i,'roja.mp4')
-      elif(substring =="0611sun"):
+      elif(substring ==keys[1]):
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/7fe542a265f3fef7ece784ed6e984c90d8a74909/all_serial/Images/sundari.png?raw=true" group-title="SERIAL",SUNDARI\n')
         f.write(i)
         f.write('\n')
