@@ -1,25 +1,44 @@
+<meta name="viewport" content="width=device-width">
 <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset=utf-8 />
-    <title>Your title</title>
-      
+<html lang="en">
+<head>
+	<base href="/">
+	<script src="js/jquery/jquery-2.2.4.min.js"></script>
+
     
-      <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-      <script src="https://unpkg.com/video.js/dist/video.js"></script>
-      <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
-       
-    </head>
-    <body>
-      <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
-      data-setup='{}'>
-        <source src="https://www.thiraitwo.com/v/sun/0211kay/480/playlist.m3u8" type="application/x-mpegURL">
-      </video>
-      
-    <script>
-    var player = videojs('my_video_1');
-    player.play();
-    </script>
-      
-    </body>
-    </html>
+        <!-- jwplayer -->
+        <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js" integrity="sha512-E8NhR9yVsuPKu0LIleLzDvcX5VnVuTcJ46wyYvovhNcVtzUw7exCQtX4hssF8dNexG5W9BQ/jwtFVDzjRstO+w==" crossorigin="anonymous"></script>
+        <!-- /jwplayer -->
+
+    
+	<style type="text/css">
+	body, html {
+		/* no scrollbars */
+		overflow: hidden;
+
+		/* pin player to top left corner of page/iframe */
+		margin: 0;
+		padding: 0;
+	}
+	</style>
+</head>
+<body>
+
+	<div id="fp-hlsjs" class="is-closeable" style="width: 100%; background: #000 url('https://www.thiraitwo.com/i/dhAnssB.jpg') no-repeat center; background-size: 100%;"></div>
+
+	
+		<script type='text/javascript'>
+			var playerInstance = jwplayer("fp-hlsjs");
+			playerInstance.setup({
+				// URL to the video file
+				file: "https://www.thiraitwo.com/v/dhAnssB.m3u8",
+				// URL to the image that should be shown before the video is started
+				autostart: false,
+				image: "https://www.thiraitwo.com/i/dhAnssB.jpg",
+				//title: 'Turcon',
+				//width: '100%',
+				aspectratio: '16:9',
+				playbackRateControls: true,
+				sharing: false,
+			});
+		</script>
