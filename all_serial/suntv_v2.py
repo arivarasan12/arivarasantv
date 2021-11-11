@@ -12,7 +12,10 @@ month=today[-5:-3]
 day=today[-2:]
 print(month)
 print(day)
-cdate=str(0)+str((int(day)-1))+month
+if(day[0]==0):
+ cdate=str(0)+str((int(day)-1))+month
+else:
+  cdate=str((int(day)-1))+month
 cdateps=day+month
 olddate=str(0)+str(int(day)-2)+month
 print("olddate",olddate)
