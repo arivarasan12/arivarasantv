@@ -42,7 +42,7 @@ for j in links:
 f = open("C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\suntvserial_v2.m3u","w")
 f.write("#EXTM3U\n")
 sun=cdate+"sun"
-keys = [cdateps,sun,"aru", "ct", "abi", "vp", "pu", "kay","Roja"]
+keys = [cdateps,sun,"aru", "ct", "abi", "vp", "pu", "kay","Roja","poo"]
 for i in links:
  fullstring = i
  for j in keys:
@@ -121,7 +121,7 @@ for i in links:
         with open(r"C:\\Users\\ariva\\OneDrive\\Desktop\\TV\\arivarasantv\\vp.m3u8",'w') as file:
 	        file.write(data)
         print("psText replaced")
-      elif(substring == "pu"):
+      elif(substring == "pu"or "poo"):
         f.write('#EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/db736b6ae6f1416cca65844856a5f60f7a5753e4/all_serial/Images/pooveunnakaga.png?raw=true" group-title="SERIAL",POOVE UNAKAGA\n')
         f.write(i)
         f.write('\n')
