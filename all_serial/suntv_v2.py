@@ -7,11 +7,15 @@ link=[]
 from datetime import date
 today = date.today()
 today=str(today)
+
+
 print(today)
 month=today[-5:-3]
 day=today[-2:]
-print(month)
-print(day)
+print("mon",month)
+print("day",day)
+rdate=day+"-"+month+"-"+"2021"
+print("dsfa",rdate)
 if(day[0]==0):
  cdate=str(0)+str((int(day)-1))+month
 else:
