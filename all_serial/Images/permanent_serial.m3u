@@ -17,3 +17,11 @@ https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/vp.m3u8
 https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/pu.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/arivarasan12/arivarasantv/blob/0269331533079bbe982e472bc8f4f7da8ea73184/all_serial/Images/chithi2.png?raw=true" group-title="SERIAL",சித்தி 2
 https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/ct.m3u8
+#EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2021/10/bb01.jpg" group-title="SERIAL,BIGG BOSS
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/bb.m3u8
+#EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2021/04/ct.jpg" group-title="SERIAL,MR AND MRS CHINNA THARAI
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/mr.m3u8
+#EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2019/03/neeya-1.jpg" group-title="SERIAL,NEYAA NANAA
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/nn.m3u8
+#EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2021/11/crkrgf.jpg" group-title="SERIAL,COMDEY RAJA KALAKAL RANI
+https://raw.githubusercontent.com/arivarasan12/arivarasantv/main/kk.m3u8
