@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="http://botallen.live/epg.xml.gz"
 #EXTINF:-1 tvg-logo="http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Jio_Cricket_Tamil.png" group-title="JIO TV",Jio Tamil Cricket HD
 http://snehjiotv.in1.bitmana.io/snehjioox.php?c=Jio_Cricket_Tamil&q=1200&e=.m3u8
 
