@@ -1,6 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://www.tamildhool.net/wp-content/uploads/2022/01/ct012.jpg" group-title="AAA", CHITHI-2
-https://www.thiraifive.com/v/sun/1102ct/720/playlist.m3u8
-
-
-
+https://www.thiraifive.com/v/sun/1202ct/720/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tamildhool.b-cdn.net/wp-content/uploads/2022/02/bbum.jpg" group-title="AAA", BIGG BOSS
+https://www.thiraifive.com/v/vijay/1102bbd12/720/playlist.m3u8
