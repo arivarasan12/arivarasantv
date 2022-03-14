@@ -1,11 +1,13 @@
 #EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=470933,RESOLUTION=792x336,FRAME-RATE=24.000,CODECS="avc1.4d481f,mp4a.40.2"
-http://cdn05.vidmx.xyz/hls/h7tocxcoamlbu3tf6rvtll5q3y4qpk7575rdvuqtuutotxp6bifa54t6gtoa/index-v1-a1.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=867103,RESOLUTION=1128x480,FRAME-RATE=24.000,CODECS="avc1.64081f,mp4a.40.2"
-http://cdn05.vidmx.xyz/hls/h7tocxcoamlbu3tf6rvtll5q3y4qpk7575rdvuqtu4totxp6biffixlld6pq/index-v1-a1.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1652543,RESOLUTION=1696x720,FRAME-RATE=24.000,CODECS="avc1.640820,mp4a.40.2"
-http://cdn05.vidmx.xyz/hls/h7tocxcoamlbu3tf6rvtll5q3y4qpk7575rdvuqtuetotxp6bifgvkqblhcq/index-v1-a1.m3u8
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-medium",NAME="audio",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://134vod-adaptive.akamaized.net/exp=1647331360~acl=%2F592335c6-c8db-409b-969b-6f30b2ee22dd%2F%2A~hmac=88b7eb276deb7c265fd8b017115cd892c79417f4139b8ca54989a83e4decf464/592335c6-c8db-409b-969b-6f30b2ee22dd/sep/audio/4fbfb332/playlist.m3u8?query_string_ranges=1"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-high",NAME="audio",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://134vod-adaptive.akamaized.net/exp=1647331360~acl=%2F592335c6-c8db-409b-969b-6f30b2ee22dd%2F%2A~hmac=88b7eb276deb7c265fd8b017115cd892c79417f4139b8ca54989a83e4decf464/592335c6-c8db-409b-969b-6f30b2ee22dd/sep/audio/11c9f533/playlist.m3u8?query_string_ranges=1"
 
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=52668,RESOLUTION=792x336,CODECS="avc1.4d481f",URI="http://cdn05.vidmx.xyz/hls/h7tocxcoamlbu3tf6rvtll5q3y4qpk7575rdvuqtuutotxp6bifa54t6gtoa/iframes-v1-a1.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=93191,RESOLUTION=1128x480,CODECS="avc1.64081f",URI="http://cdn05.vidmx.xyz/hls/h7tocxcoamlbu3tf6rvtll5q3y4qpk7575rdvuqtu4totxp6biffixlld6pq/iframes-v1-a1.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=165622,RESOLUTION=1696x720,CODECS="avc1.640820",URI="http://cdn05.vidmx.xyz/hls/h7tocxcoamlbu3tf6rvtll5q3y4qpk7575rdvuqtuetotxp6bifgvkqblhcq/iframes-v1-a1.m3u8"
+#EXT-X-STREAM-INF:CLOSED-CAPTIONS=NONE,BANDWIDTH=1909964,AVERAGE-BANDWIDTH=1627000,RESOLUTION=960x412,FRAME-RATE=24.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio-medium"
+https://134vod-adaptive.akamaized.net/exp=1647331360~acl=%2F592335c6-c8db-409b-969b-6f30b2ee22dd%2F%2A~hmac=88b7eb276deb7c265fd8b017115cd892c79417f4139b8ca54989a83e4decf464/592335c6-c8db-409b-969b-6f30b2ee22dd/sep/video/11c9f533/playlist.m3u8?query_string_ranges=1
+#EXT-X-STREAM-INF:CLOSED-CAPTIONS=NONE,BANDWIDTH=848620,AVERAGE-BANDWIDTH=771000,RESOLUTION=640x274,FRAME-RATE=24.000,CODECS="avc1.64001E,mp4a.40.2",AUDIO="audio-medium"
+https://134vod-adaptive.akamaized.net/exp=1647331360~acl=%2F592335c6-c8db-409b-969b-6f30b2ee22dd%2F%2A~hmac=88b7eb276deb7c265fd8b017115cd892c79417f4139b8ca54989a83e4decf464/592335c6-c8db-409b-969b-6f30b2ee22dd/sep/video/4fbfb332/playlist.m3u8?query_string_ranges=1
+#EXT-X-STREAM-INF:CLOSED-CAPTIONS=NONE,BANDWIDTH=3487384,AVERAGE-BANDWIDTH=2489000,RESOLUTION=1272x544,FRAME-RATE=24.000,CODECS="avc1.640020,mp4a.40.2",AUDIO="audio-high"
+https://134vod-adaptive.akamaized.net/exp=1647331360~acl=%2F592335c6-c8db-409b-969b-6f30b2ee22dd%2F%2A~hmac=88b7eb276deb7c265fd8b017115cd892c79417f4139b8ca54989a83e4decf464/592335c6-c8db-409b-969b-6f30b2ee22dd/sep/video/7df92e1e/playlist.m3u8?query_string_ranges=1
+#EXT-X-STREAM-INF:CLOSED-CAPTIONS=NONE,BANDWIDTH=500566,AVERAGE-BANDWIDTH=455000,RESOLUTION=426x182,FRAME-RATE=24.000,CODECS="avc1.640015,mp4a.40.2",AUDIO="audio-medium"
+https://134vod-adaptive.akamaized.net/exp=1647331360~acl=%2F592335c6-c8db-409b-969b-6f30b2ee22dd%2F%2A~hmac=88b7eb276deb7c265fd8b017115cd892c79417f4139b8ca54989a83e4decf464/592335c6-c8db-409b-969b-6f30b2ee22dd/sep/video/a78f7633/playlist.m3u8?query_string_ranges=1
