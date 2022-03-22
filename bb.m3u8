@@ -1,11 +1,8 @@
 #EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=287339,RESOLUTION=428x240,FRAME-RATE=23.974,CODECS="avc1.4d401f,mp4a.40.2"
-http://cdn007.vidmx.xyz/hls/h7toikt6amlbu3tf6rutl6xj2wtfwtjf5z6esda2a4a6swl3s7p7jul6s7da/index-v1-a1.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=595822,RESOLUTION=640x360,FRAME-RATE=23.974,CODECS="avc1.64001e,mp4a.40.2"
-http://cdn007.vidmx.xyz/hls/h7toikt6amlbu3tf6rutl6xj2wtfwtjf5z6esda2aua6swl3s7pw23eracfq/index-v1-a1.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1291010,RESOLUTION=1280x720,FRAME-RATE=23.974,CODECS="avc1.64001f,mp4a.40.2"
-http://cdn007.vidmx.xyz/hls/h7toikt6amlbu3tf6rutl6xj2wtfwtjf5z6esda2ama6swl3s7psrjmdl22a/index-v1-a1.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=528307,RESOLUTION=584x240,FRAME-RATE=24.000,CODECS="avc1.4d401f,mp4a.40.2"
+http://cdn007.vidmx.xyz/hls/h7tojdt7amlbu3tf6rutl57i2eyrdxonlzj2yiullgvcygnn47pkq2v736fa/index-v1-a1.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=733236,RESOLUTION=872x360,FRAME-RATE=24.000,CODECS="avc1.64001e,mp4a.40.2"
+http://cdn007.vidmx.xyz/hls/h7tojdt7amlbu3tf6rutl57i2eyrdxonlzj2yiullovcygnn47pa734ubm4q/index-v1-a1.m3u8
 
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=23448,RESOLUTION=428x240,CODECS="avc1.4d401f",URI="http://cdn007.vidmx.xyz/hls/h7toikt6amlbu3tf6rutl6xj2wtfwtjf5z6esda2a4a6swl3s7p7jul6s7da/iframes-v1-a1.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=41302,RESOLUTION=640x360,CODECS="avc1.64001e",URI="http://cdn007.vidmx.xyz/hls/h7toikt6amlbu3tf6rutl6xj2wtfwtjf5z6esda2aua6swl3s7pw23eracfq/iframes-v1-a1.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=78856,RESOLUTION=1280x720,CODECS="avc1.64001f",URI="http://cdn007.vidmx.xyz/hls/h7toikt6amlbu3tf6rutl6xj2wtfwtjf5z6esda2ama6swl3s7psrjmdl22a/iframes-v1-a1.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=58411,RESOLUTION=584x240,CODECS="avc1.4d401f",URI="http://cdn007.vidmx.xyz/hls/h7tojdt7amlbu3tf6rutl57i2eyrdxonlzj2yiullgvcygnn47pkq2v736fa/iframes-v1-a1.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=80284,RESOLUTION=872x360,CODECS="avc1.64001e",URI="http://cdn007.vidmx.xyz/hls/h7tojdt7amlbu3tf6rutl57i2eyrdxonlzj2yiullovcygnn47pa734ubm4q/iframes-v1-a1.m3u8"
