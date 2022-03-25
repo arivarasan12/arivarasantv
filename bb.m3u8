@@ -1,11 +1,11 @@
 #EXTM3U
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=338404,RESOLUTION=564x240,FRAME-RATE=23.974,CODECS="avc1.4d401f,mp4a.40.2"
-http://116.202.116.250/hls/h7toj5leamlbu3tf6rudlkx43fkfingab6kcc2n2j63fgumkyftj3cxot2jq/index-v1-a1.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=732688,RESOLUTION=640x272,FRAME-RATE=23.974,CODECS="avc1.640015,mp4a.40.2"
-http://116.202.116.250/hls/h7toj5leamlbu3tf6rudlkx43fkfingab6kcc2n2jw3fgumkyftgfkvtbnca/index-v1-a1.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1050295,RESOLUTION=1280x544,FRAME-RATE=24.390,CODECS="avc1.640028,mp4a.40.2"
-http://116.202.116.250/hls/h7toj5leamlbu3tf6rudlkx43fkfingab6kcc2n2jo3fgumkyftbwsf3auma/index-v1-a1.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=338401,RESOLUTION=564x240,FRAME-RATE=30.000,CODECS="avc1.4d401f,mp4a.40.2"
+http://116.202.116.250/hls/h7tog4dgamlbu3tf6rudloprrc6hhwp4r7cu7v6c44eyx3ss5qigmba3bzla/index-v1-a1.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=750400,RESOLUTION=640x272,FRAME-RATE=30.000,CODECS="avc1.64001e,mp4a.40.2"
+http://116.202.116.250/hls/h7tog4dgamlbu3tf6rudloprrc6hhwp4r7cu7v6c4ueyx3ss5qik33e7nnmq/index-v1-a1.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=927712,RESOLUTION=1280x544,FRAME-RATE=30.303,CODECS="avc1.64001f,mp4a.40.2",VIDEO-RANGE=SDR
+http://116.202.116.250/hls/h7tog4dgamlbu3tf6rudloprrc6hhwp4r7cu7v6c4meyx3ss5qiovyqnnetq/index-v1-a1.m3u8
 
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=37321,RESOLUTION=564x240,CODECS="avc1.4d401f",URI="http://116.202.116.250/hls/h7toj5leamlbu3tf6rudlkx43fkfingab6kcc2n2j63fgumkyftj3cxot2jq/iframes-v1-a1.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=69286,RESOLUTION=640x272,CODECS="avc1.640015",URI="http://116.202.116.250/hls/h7toj5leamlbu3tf6rudlkx43fkfingab6kcc2n2jw3fgumkyftgfkvtbnca/iframes-v1-a1.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=76396,RESOLUTION=1280x544,CODECS="avc1.640028",URI="http://116.202.116.250/hls/h7toj5leamlbu3tf6rudlkx43fkfingab6kcc2n2jo3fgumkyftbwsf3auma/iframes-v1-a1.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=29526,RESOLUTION=564x240,CODECS="avc1.4d401f",URI="http://116.202.116.250/hls/h7tog4dgamlbu3tf6rudloprrc6hhwp4r7cu7v6c44eyx3ss5qigmba3bzla/iframes-v1-a1.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=56695,RESOLUTION=640x272,CODECS="avc1.64001e",URI="http://116.202.116.250/hls/h7tog4dgamlbu3tf6rudloprrc6hhwp4r7cu7v6c4ueyx3ss5qik33e7nnmq/iframes-v1-a1.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=58356,RESOLUTION=1280x544,CODECS="avc1.64001f",URI="http://116.202.116.250/hls/h7tog4dgamlbu3tf6rudloprrc6hhwp4r7cu7v6c4meyx3ss5qiovyqnnetq/iframes-v1-a1.m3u8",VIDEO-RANGE=SDR
